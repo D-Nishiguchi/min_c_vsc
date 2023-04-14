@@ -1,0 +1,17 @@
+{
+    //Windows専用！！！！！！！！！！！！！！！！
+    //最低限C言語が動く環境
+    "code-runner.runInTerminal": true,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "args": [
+                "-NoExit",
+                "-Command",
+                "chcp 65001"
+            ],
+        }
+    }
+    //Windows専用！！！！！！！！！！！！！！！！
+}
